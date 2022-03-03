@@ -1,0 +1,158 @@
+
+body
+{
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:Tahoma, Geneva, sans-serif;
+	background-image:url("images/background.png");
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	font-size: 120%;
+}
+
+a
+{
+	color : #000000;
+	text-decoration : none;
+	font-size:170%;	
+}
+
+nav
+{
+	position:sticky;
+	top:1%;
+}
+
+nav li:hover{
+	
+	background-size: cover;
+	background-image:url("images/light.png");
+}
+
+nav ul
+{
+	padding: 0px;
+	margin: 0px;
+	display:flex;
+}
+nav li
+{
+	display:inline-block;
+	margin: 0px;
+	padding: 0px;
+	width: 20%;
+	border: 1% solid #000000;
+	background-image:url("images/download.png");
+	background-size:cover;
+}
+
+nav li a
+{
+	color:#000000;
+	display:block;
+	text-decoration:none;
+	font-size:170%;
+	font-family:Segoe Script;
+	text-align:center;
+	padding: 50px 20px;
+	
+}
+
+.sous
+{
+	display:none;
+	background-color:white;
+	position:absolute;
+	
+}
+
+.sous li
+{
+	float:none;
+	width:100%;
+	text-align:right;
+}
+
+.sous a
+{
+	padding:13%;
+	border-bottom:none;
+}
+
+.sous a:hover
+{
+	border-bottom: none;
+	background-image:url("images/deroulant.png");
+	background-size:cover;
+}
+
+nav > ul li:hover .sous
+{
+	display:block;
+}
+
+
+
+.deroulant > a ::after
+{
+	content:url("image/deroulant.png");
+}
+
+#page-wrap
+{
+	padding:5%;
+	width: 90%;
+	height:auto 100%;
+	background:#FFFFFF;
+}
+
+
+.page2
+{
+	display:flex;
+	align-items: baseline;
+	font-size:100%;
+	font-family:Comic Sans MS;
+	white-space:pre;
+}
+.link a:hover
+{
+	text-decoration: underline;
+	color:#2B8DFF;
+}
+.inline
+{
+	white-space:pre;
+	display:flex;
+	align-items: baseline;
+}
+
+.case{
+	display:inline;
+	margin-left:10%;
+}
+
+#title
+{
+	text-decoration:underline;
+	font-size:200%;
+	margin-left:10%;
+	font-family:Calibri Light;
+}
+
+#PP
+{
+	margin-left:-5.5%;
+	margin-bottom:4%;
+	width: 111%;
+	height:20%;
+	background:#FFFFFF;
+}
+
+@font-face
+{
+    font-family: manga;
+    src: url('font/Mangarans DEMO.ttf');
+}
